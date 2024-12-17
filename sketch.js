@@ -347,17 +347,17 @@ class Component {
 
 
 function preload() {
-  andGateImg = loadImage('/img/andGate.png');
-  nandGateImg = loadImage('/img/nandGate.png');
-  norGateImg = loadImage('/img/norGate.png');
-  notGateImg = loadImage('/img/notGate.png');
-  xorGateImg = loadImage('/img/xorGate.png');
-  xnorGateImg = loadImage('/img/xnorGate.png');
-  orGateImg = loadImage('/img/orGate.png');
-  offStateImg = loadImage('/img/offState.png');
-  offBulbImg = loadImage('/img/offBulb.png');
-  onBulbImg = loadImage('/img/onBulb.png');
-  onStateImg = loadImage('/img/onState.png');
+  andGateImg = loadImage('img/andGate.png');
+  nandGateImg = loadImage('img/nandGate.png');
+  norGateImg = loadImage('img/norGate.png');
+  notGateImg = loadImage('img/notGate.png');
+  xorGateImg = loadImage('img/xorGate.png');
+  xnorGateImg = loadImage('img/xnorGate.png');
+  orGateImg = loadImage('img/orGate.png');
+  offStateImg = loadImage('img/offState.png');
+  offBulbImg = loadImage('img/offBulb.png');
+  onBulbImg = loadImage('img/onBulb.png');
+  onStateImg = loadImage('img/onState.png');
 }
 
 
