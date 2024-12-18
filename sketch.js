@@ -36,10 +36,10 @@ class Component {
 
 
     if (type === 'offBulb') {
-      this.onBulbImg = loadImage('/img/onBulb.png');
+      this.onBulbImg = loadImage('img/onBulb.png');
       this.offBulbImg = img;
     } else if (type === 'offState' || type === 'onState') {
-      this.onStateImg = loadImage('/img/onState.png');
+      this.onStateImg = loadImage('img/onState.png');
     }
 
 
@@ -506,7 +506,7 @@ function mouseReleased() {
 }
 
 function andgate() {
-  andGate = createImg('/img/andGate.png');
+  andGate = createImg('img/andGate.png');
   andGate.position(10, yOffset + 10);
   agb = createButton('');
   agb.position(0, yOffset);
@@ -524,7 +524,7 @@ function andgate() {
 }
 
 function nandgate() {
-  nandGate = createImg('/img/nandGate.png');
+  nandGate = createImg('img/nandGate.png');
   nandGate.position(211, yOffset + 10);
   nandb = createButton('');
   nandb.position(201, yOffset);
@@ -542,7 +542,7 @@ function nandgate() {
 }
 
 function norgate() {
-  norGate = createImg('/img/norGate.png');
+  norGate = createImg('img/norGate.png');
   norGate.position(419, yOffset + 10);
   norb = createButton('');
   norb.position(402, yOffset);
@@ -560,7 +560,7 @@ function norgate() {
 }
 
 function notgate() {
-  notGate = createImg('/img/notGate.png');
+  notGate = createImg('img/notGate.png');
   notGate.position(619, yOffset + 10);
   notb = createButton('');
   notb.position(604, yOffset);
@@ -578,7 +578,7 @@ function notgate() {
 }
 
 function xorgate() {
-  xorGate = createImg('/img/xorGate.png');
+  xorGate = createImg('img/xorGate.png');
   xorGate.position(819, yOffset + 10);
   xorb = createButton('');
   xorb.position(804, yOffset);
@@ -596,7 +596,7 @@ function xorgate() {
 }
 
 function xnorgate() {
-  xnorGate = createImg('/img/xnorGate.png');
+  xnorGate = createImg('img/xnorGate.png');
   xnorGate.position(1019, yOffset + 10);
   xnorb = createButton('');
   xnorb.position(1005, yOffset);
@@ -614,7 +614,7 @@ function xnorgate() {
 }
 
 function orgate() {
-  orGate = createImg('/img/orGate.png');
+  orGate = createImg('img/orGate.png');
   orGate.position(1229, yOffset + 7);
   orb = createButton('');
   orb.position(1206, yOffset);
@@ -633,7 +633,7 @@ function orgate() {
 }
 
 function offState() {
-  offState = createImg('/img/offState.png');
+  offState = createImg('img/offState.png');
   offState.position(1465, yOffset + 4.1);
   offState.size(75, 75);
   ofsb = createButton('');
@@ -671,7 +671,7 @@ function onState() {
 }
 
 function offBulb() {
-  offBulb = createImg('/img/offBulb.png');
+  offBulb = createImg('img/offBulb.png');
   offBulb.position(1865, yOffset + 5);
   offBulb.size(75, 85);
   ofbb = createButton('');
